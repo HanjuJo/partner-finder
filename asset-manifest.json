@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/partner-finder/static/css/main.2b27f3f8.css",
-    "main.js": "/partner-finder/static/js/main.59323770.js",
+    "main.css": "/partner-finder/static/css/main.3ce3cfef.css",
+    "main.js": "/partner-finder/static/js/main.0b07b92c.js",
     "index.html": "/partner-finder/index.html",
-    "main.2b27f3f8.css.map": "/partner-finder/static/css/main.2b27f3f8.css.map",
-    "main.59323770.js.map": "/partner-finder/static/js/main.59323770.js.map"
+    "main.3ce3cfef.css.map": "/partner-finder/static/css/main.3ce3cfef.css.map",
+    "main.0b07b92c.js.map": "/partner-finder/static/js/main.0b07b92c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b27f3f8.css",
-    "static/js/main.59323770.js"
+    "static/css/main.3ce3cfef.css",
+    "static/js/main.0b07b92c.js"
   ]
 }
