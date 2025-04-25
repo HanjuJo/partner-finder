@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function Home() {
   const benefits = [
@@ -30,21 +31,21 @@ function Home() {
       name: '쿠팡파트너스',
       commission: '1-7%',
       description: '국내 최대 커머스 플랫폼',
-      image: 'https://image6.coupangcdn.com/image/retail/images/2019/12/13/13/5/ec2f5d84-efd2-4f91-8882-9f70cf9f59c1.jpg',
+      icon: 'bi-shop',
       color: 'bg-orange-500',
     },
     {
       name: '애드픽',
       commission: '3-15%',
       description: '다양한 상품군과 높은 수익률',
-      image: 'https://via.placeholder.com/300x200/4F46E5/FFFFFF?text=애드픽',
+      icon: 'bi-graph-up-arrow',
       color: 'bg-indigo-500',
     },
     {
       name: '링크프라이스',
       commission: '2-10%',
       description: '글로벌 브랜드 제휴',
-      image: 'https://via.placeholder.com/300x200/10B981/FFFFFF?text=링크프라이스',
+      icon: 'bi-globe',
       color: 'bg-emerald-500',
     },
   ];
@@ -83,11 +84,7 @@ function Home() {
               className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
             >
               <div className={`h-48 ${platform.color} flex items-center justify-center`}>
-                <img
-                  src={platform.image}
-                  alt={platform.name}
-                  className="h-24 object-contain"
-                />
+                <i className={`bi ${platform.icon} text-white text-6xl`}></i>
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
